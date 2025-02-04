@@ -1,0 +1,102 @@
+/* CSS for calendar days */
+.calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+  }
+  
+  .calendar-day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+  }
+  
+  .calendar-day.active {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .calendar-day.inactive {
+    visibility: hidden;
+  }
+  
+  /* Header for days of the week */
+  .calendar-days-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0 10px;
+    font-weight: bold;
+  }
+  
+  .calendar-days-header .day {
+    flex: 1;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 2px solid #47744e;
+  }
+  
+  /* Highlight today */
+  .calendar-day.today {
+    background-color: #28a745; /* Change this color to highlight today's date */
+    color: white; /* Ensure text is readable on the background color */
+    font-weight: bold; /* Optional: make today's date stand out more */
+  }
+  
+  /* Style for calendar navigation buttons */
+  .calendar-header button {
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for background color and text color */
+  }
+  
+  .calendar-header button:hover {
+    background-color: #e9ecef; /* Light background color on hover */
+    color: #333; /* Dark text color on hover for better readability */
+  }
+
+  /* CSS for Add Event button */
+#addEvent {
+    background-color: #47744e
+  }
+  
+  #addEvent:hover {
+    background-color: #2d4931; /* Darker blue on hover */
+    color: white; /* White text color on hover */
+  }
+  
+/* for the pie chart*/
+
+.chart-container {
+  width: 400px; /* Fixed width */
+  height: 400px; /* Fixed height */
+  margin: auto; /* Center the chart */
+}
+
+#attendancePieChart {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Ensure cards have consistent width */
+.card {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Adjust image upload preview for profile pictures */
+.img-fixed-size {
+  width: 150px; /* Set the desired width */
+  height: 150px; /* Set the desired height */
+  object-fit: cover; /* Ensures the image covers the entire area without distortion */
+}
+
+.custom-card-width {
+  width: 100%;
+  max-width: 800px; /* Adjust the max-width as needed */
+  margin: 0 auto; /* Center the card */
+}
+
+

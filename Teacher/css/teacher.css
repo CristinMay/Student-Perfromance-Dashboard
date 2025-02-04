@@ -1,0 +1,29 @@
+.display-mode {
+    display: none;
+}
+.button-container {
+    margin-top: 20px;
+}
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+#grading-system-table thead {
+    background-color: black; /* Black background for the header */
+    color: white; /* White text for the header */
+}
+
+/* Additional styling for table rows */
+#grading-system-table tbody tr {
+    background-color: #f9f9f9; /* Light background for rows */
+}
+
+/* Styling for table cells */
+#grading-system-table td {
+    padding: 8px; /* Padding for table cells */
+}

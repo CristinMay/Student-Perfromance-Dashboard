@@ -1,0 +1,98 @@
+body {
+    padding-top: 70px; /* Adjusted for header */
+}
+
+.custom-header {
+    background-color: #458056; /* Green background color */
+    padding: 10px 0;
+    width: 100%; /* Ensure the header spans the full width */
+}
+
+.custom-header .logo {
+    max-width: 50px;
+    margin-left: 0; /* Ensure the logo starts at the very left */
+}
+
+.custom-header h1 {
+    margin-left: 10px; /* Minimal margin to keep some spacing between the logo and text */
+    white-space: nowrap; /* Prevent the text from wrapping to a new line */
+    overflow: hidden; /* Hide overflow if the text is too long */
+    text-overflow: ellipsis; /* Add ellipsis if the text overflows */
+    color: #ffffff; /* Change text color to white */
+    margin: 0; /* Remove default margin */
+}
+
+.logo {
+    height: 60px; /* Adjust height as needed */
+    max-width: 60px; /* Ensure logo width is consistent */
+    margin-left: 0; /* Align logo to the left */
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    color: #ffffff; /* Ensure account text color is white */
+    margin-left: auto; /* Align to the right */
+    white-space: nowrap; /* Prevent wrapping of the account info */
+}
+
+#sidebar {
+    background-color: #343a40; /* Dark sidebar background */
+    min-height: 100vh; /* Full viewport height */
+}
+
+.nav-item:hover {
+    background-color: #6DA36C; /* Highlight color on hover */
+}
+
+.nav-link {
+    color: #ffffff !important; /* Ensure nav links are white */
+}
+
+.nav-link:hover {
+    color: #f8f9fa !important; /* Change color on hover */
+}
+
+.content-box {
+    padding: 30px;
+    background-color: #6e7b6e; /* Light green background */
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.btn-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 90px;
+    width: 100%;
+    text-align: center;
+    color: #6DA36C; /* Green color for button text */
+    margin: 10px 0;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+    border: 2px solid #6DA36C; /* Green border */
+}
+
+.btn-icon i {
+    margin-right: 10px; /* Spacing between icon and text */
+}
+
+.btn-icon:hover {
+    background-color: #6DA36C; /* Green background on hover */
+    color: #ffffff; /* White text color on hover */
+    border-color: #6DA36C; /* Green border on hover */
+}
+
+.row-btns {
+    margin: 0; /* Remove default margin */
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    margin-top: 1%; /* Adjust top margin as needed */
+}

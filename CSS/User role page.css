@@ -1,0 +1,24 @@
+body {
+    background-image: url('image/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-custom {
+    background-color: #5cc28c; /* Primary color */
+    border-color: #58a56d;
+    box-shadow: 0 4px 6px rgba(143, 57, 57, 0.1);
+    color: rgb(3, 2, 2);
+  }
+  .btn-custom:hover {
+    background-color: #79b480; /* Darker shade on hover */
+    border-color: #0056b3;
+  }
+
+  

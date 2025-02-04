@@ -1,0 +1,70 @@
+.btn-dark {
+    background-color: #6DA36C; /* Set the default button color */
+    color: white;
+    border: none;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+.btn-dark:hover {
+    background-color: #5b8f55; /* Darker shade for hover effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05); /* Slightly increase the size on hover */
+}
+
+.toggler-btn {
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    z-index: 1050; /* Ensure it stays above other content */
+    border-radius: 50%;
+    background-color: black; /* Button color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+.collapse.show {
+    display: block !important; /* Ensure the container displays when expanded */
+}
+.progress-container {
+    position: relative;
+    margin-bottom: 1.5rem; /* Margin for spacing between progress bars */
+}
+
+.progress-text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000; /* Text color */
+    z-index: 1; /* Ensure text is above the bar */
+}
+
+.progress {
+    height: 1.5rem;
+}
+
+body {
+    padding-top: 0;
+}
+.card {
+    margin-bottom: 1rem;
+}
+.card-header {
+    padding: 0.75rem 1.25rem;
+}
+.card-body {
+    padding: 1.25rem;
+}
+.table {
+    margin-bottom: 0;
+}
+@media (max-width: 767.98px) {
+    .card-body {
+        padding: 0.5rem;
+    }
+}
+
+

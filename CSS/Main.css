@@ -1,0 +1,289 @@
+body {
+    padding-top:70px;
+    background-image:url(/image/background.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    justify-content:center;
+    text-align:center;
+    background:url(/image/background.jpg) center/cover no-repeat;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color:#FFF;
+    margin:0;
+    }
+    
+    #sidebar {
+    background-color:#343a40;
+    min-height:100vh;
+    }
+    
+    .custom-header {
+    background-color:#458056;
+    width:100%;
+    padding:10px 0;
+    }
+    
+    .logo {
+    height:60px;
+    max-width:60px;
+    margin-left:0;
+    }
+    
+    .account {
+    display:flex;
+    align-items:center;
+    color:#fff;
+    margin-left:auto;
+    white-space:nowrap;
+    }
+    
+    .nav-item:hover {
+    background-color:#6DA36C;
+    }
+    
+    .nav-link {
+    color:#fff!important;
+    }
+    
+    .nav-link:hover {
+    color:#f8f9fa!important;
+    }
+    
+    .content-box {
+    background-color:#6e7b6e;
+    border-radius:8px;
+    box-shadow:0 0 15px rgba(0,0,0,0.1);
+    margin-bottom:20px;
+    padding:30px;
+    }
+    
+    .btn-icon {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:2rem;
+    width:100%;
+    text-align:center;
+    color:#6DA36C;
+    border-radius:8px;
+    transition:background-color .3s color .3s;
+    border:2px solid #6DA36C;
+    margin:10px 0;
+    padding:90px;
+    }
+    
+    .btn-icon i {
+    margin-right:10px;
+    }
+    
+    .btn-icon:hover {
+    background-color:#6DA36C;
+    color:#fff;
+    border-color:#6DA36C;
+    }
+    
+    .row-btns {
+    margin:0;
+    }
+    
+    .custom-header .logo {
+    max-width:50px;
+    margin-left:0;
+    }
+    
+    .custom-header h1 {
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    color:#fff;
+    margin:0;
+    }
+    
+    .card-body {
+    flex:1 1 auto;
+    min-height:1px;
+    margin-top:1%;
+    padding:20px;
+    }
+    
+    .card {
+    background:#FFF;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+    margin-top:120px;
+    max-width:500px;
+    width:90%;
+    padding:40px;
+    }
+    
+    .card-header {
+    background-color:#6DA36C;
+    color:#FFF;
+    border-radius:15px 15px 0 0;
+    }
+    
+    canvas {
+    width:100%!important;
+    height:300px;
+    max-height:300px;
+    }
+    
+    .form-control {
+    width:20%;
+    }
+    
+    .edit-mode .form-check {
+    display:inline-block;
+    margin-right:15px;
+    }
+    
+    .edit-mode .form-check input {
+    margin-right:5px;
+    }
+    
+    .view-mode .form-check {
+    display:none;
+    }
+    
+    .view-mode .attendance-display {
+    display:inline;
+    }
+    
+    .option-bar {
+    margin-bottom:20px;
+    }
+    
+    .calendar-header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    }
+    
+    .calendar-header button {
+    border:none;
+    background:none;
+    font-size:1.5rem;
+    cursor:pointer;
+    }
+    
+    .calendar-days {
+    display:grid;
+    grid-template-columns:repeat(7,1fr);
+    gap:1px;
+    }
+    
+    .calendar-day {
+    text-align:center;
+    background-color:#f8f9fa;
+    padding:10px;
+    }
+    
+    .calendar-day:hover {
+    background-color:#e9ecef;
+    }
+    
+    .attendance-dashboard .pie-chart,.missing-assignments .assignment-list {
+    height:300px;
+    }
+    
+    header {
+    color:#fff;
+    justify-content:start;
+    background:rgba(40,167,69,0.8);
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1000;
+    display:flex;
+    align-items:center;
+    padding:20px;
+    }
+    
+    header img {
+    height:100px;
+    margin-right:20px;
+    }
+    
+    .login-container {
+    text-align:center;
+    background:rgba(33,37,41,0.9);
+    border-radius:10px;
+    box-shadow:0 0 20px rgba(0,0,0,0.2);
+    max-width:500px;
+    width:90%;
+    margin-top:200px;
+    padding:5%;
+    }
+    
+    .login-container h1,.login-container p {
+    color:#FFF;
+    }
+    
+    .login-container a {
+    text-decoration:none;
+    color:#00bcd4;
+    }
+    
+    .login-container a:hover {
+    color:#0288d1;
+    }
+    
+    .profile-picture {
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #dfe3e7;
+    box-shadow:0 4px 8px rgba(0,0,0,0.3);
+    }
+    
+    .profile-info h5 {
+    margin-bottom:10px;
+    }
+    
+    .btn-custom {
+    background-color:#5cc28c;
+    box-shadow:0 4px 6px rgba(143,57,57,0.1);
+    color:#030202;
+    border-color:#58a56d;
+    }
+    
+    .btn-custom:hover {
+    background-color:#79b480;
+    border-color:#0056b3;
+    }
+    
+    header h1 {
+    font-family:"Nunito Sans", "Helvetica Neue", sans-serif;
+    font-weight:700;
+    font-size:24px;
+    margin:0;
+    }
+    
+    .card .checkmark {
+    font-size:100px;
+    color:#88B04B;
+    }
+    
+    .card h1 {
+    color:#88B04B;
+    font-family:"Nunito Sans", "Helvetica Neue", sans-serif;
+    font-weight:900;
+    font-size:32px;
+    margin-bottom:20px;
+    }
+    
+    .card p {
+    color:#404F5E;
+    font-family:"Nunito Sans", "Helvetica Neue", sans-serif;
+    font-size:18px;
+    margin:0;
+    }
+    
+    .calendar,.add-event-btn,.attendance-dashboard,.missing-assignments,.missing-assignments .table,.btn-container,.profile-info {
+    margin-top:20px;
+    }

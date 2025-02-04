@@ -1,0 +1,49 @@
+body {
+    background: url('/image/background.jpg') center/cover no-repeat;
+    height: 100vh;
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white; 
+}
+
+header {
+   background-color: #5cc28c; 
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    height: 100px;
+    margin-right: 20px;
+}
+
+.login-container {
+    background: rgba(33, 37, 41, 0.9); 
+    padding: 5%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 90%; 
+    margin-top: 200px; 
+}
+
+.login-container h1,
+.login-container p {
+    color: white; 
+}
+
+.login-container a {
+    color: #00bcd4;
+}
+
+.login-container a:hover {
+    color: #0288d1;
+}
